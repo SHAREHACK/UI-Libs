@@ -1,4 +1,4 @@
-local DiscordLib = {}
+local DiscordLib = {RainbowColorValue = 0, HueSelectionPosition = 0}
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -2188,7 +2188,7 @@ function DiscordLib:Window(text)
 				Toggle.Size = UDim2.new(0, 401, 0, 30)
 				Toggle.AutoButtonColor = false
 				Toggle.Font = Enum.Font.Gotham
-				Toggle.Text = ""
+				Toggle.Text = "Auto Farm"
 				Toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
 				Toggle.TextSize = 14.000
 
